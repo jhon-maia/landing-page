@@ -21,7 +21,7 @@ body {
     );
     padding: 2%;
     width: 90vw;
-    max-width: 600px;
+    max-width: 500px;
   }
   
   .profile {
@@ -53,8 +53,8 @@ body {
     background-color: #c0a35f;
   }
   
-  /* Estilos para telas menores */
-  @media screen and (max-width: 768px) {
+  /* Estilos para celulares */
+  @media screen and (max-width: 480px) {
     .container {
       width: 90vw;
       max-width: 90%;
