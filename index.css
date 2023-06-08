@@ -6,7 +6,6 @@ body {
     background-image: url(./images/backgound-consultorio.jpg);
     background-size: cover;
     background-position: center center;
-    padding: 1.5%;
   }
   
   .container {
@@ -21,6 +20,8 @@ body {
       rgba(224, 169, 102, 0.0858543246400123) 100%
     );
     padding: 2%;
+    width: 90vw;
+    max-width: 600px;
   }
   
   .profile {
@@ -55,38 +56,18 @@ body {
   /* Estilos para telas menores */
   @media screen and (max-width: 768px) {
     .container {
-      padding: 5%;
-      width: 90%;
-      height: 100vh;
+      width: 90vw;
+      max-width: 90%;
     }
   
     .profile-picture {
-      width: 9.25rem;
-      height: 9.25rem;
+      width: 6.25rem;
+      height: 6.25rem;
     }
   
     .links a {
       margin: 0.3125rem;
       padding: 0.3125rem;
-    }
-  }
-  
-  /* Estilos para telas menores (celulares em orientação retrato) */
-  @media screen and (max-width: 480px) and (orientation: portrait) {
-    .container {
-      padding: 5%;
-      height: 100vh;
-    }
-  
-    .profile-picture {
-      width: 10rem;
-      height: 10rem;
-    }
-  
-    .links a {
-      margin: 0.3125rem;
-      padding: 0.3125rem;
-      font-size: 0.875rem;
     }
   }
   
