@@ -9,11 +9,10 @@ body {
     flex-direction: column;
     background-image: url(./images/backgound-consultorio.jpg);
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    max-height: 850px;
+    background-position:  center;
+    background-repeat:repeat-y;
   }
+  
   
   .container {
     display: flex;
@@ -82,10 +81,12 @@ body {
   }
   
   @media screen and (max-width: 480px) {
-
+   
+    
     body{
         padding: 5%;
         margin: 3%;
+        height: 100vh;
     }
   .container{
      
