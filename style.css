@@ -97,7 +97,7 @@ body {
     body{
         padding: 5%;
         margin: 3%;
-        height: 100vh;
+        
     }
   .container{
      
@@ -127,3 +127,34 @@ body {
     }
   }
   
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .email-form input[type="email"] {
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .email-form button[type="submit"] {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    background-color: #c0a35f;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+  }
