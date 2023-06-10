@@ -1,17 +1,26 @@
+html{
+    min-height: 100vh;
+}
+
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100vw;
+    height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: column;
     background-image: url(./images/backgound-consultorio.jpg);
     background-size: cover;
-    background-position:  center;
-    background-repeat:repeat-y;
+    background-position: center center;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
   }
+  
+  
   
   
   .container {
@@ -45,7 +54,8 @@ body {
     text-decoration: none;
     padding: 5px;
     letter-spacing: 2.5px;
-    vertical-align: middle;
+    
+    display: table-cell;
   }
   
   .image-container {
@@ -71,7 +81,7 @@ body {
     }
   
     .image-container {
-      width: 50%;
+      width: 40%;
       height: 20vh;
     }
   
@@ -80,7 +90,7 @@ body {
     }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width:360px) and (max-width: 480px) {
    
     
     body{
