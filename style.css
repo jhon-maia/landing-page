@@ -49,13 +49,14 @@ body {
     border-radius: 30px;
     height: 56px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
     padding: 5px;
-    letter-spacing: 2.5px;
-    
-    display: table-cell;
+    letter-spacing: 2.0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .image-container {
